@@ -1,5 +1,11 @@
+import MainGraph from './components/MainGraph';
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div className="app">
+      <MainGraph />
+    </div>
+  );
 };
 
 export default App;
